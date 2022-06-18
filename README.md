@@ -1,7 +1,7 @@
 # Div_Design_S8_BCC
 Atividade da cadeira de Design Web utilizando o site http://enviartrabalho.rf.gd/div_design do professor Ricardo Lenz Cesar.
 
-Aqui estara apenas as telas finais, com o HTML e CSS acompanhado com uma imagem de como ela ficou, e para isso foi dividido em pastas cada uma das telas, sendo elas: Site estilo Youtube, site estilo Jornal, Calendario, Interface Ribbon e Interface Metro UI.
+Aqui estara apenas as telas finais, com o HTML e CSS acompanhado com uma imagem de como ela ficou.
 
 ## `Site`
 O site http://enviartrabalho.rf.gd/div_design é um site desenvolvido pelo professor Ricardo Lenz Cesar e é utilizado para o desenvolvimento de telas com HTML e CSS utilizando apenas div para a construção das telas.
@@ -29,6 +29,12 @@ Primeiramente a tela padrão do Div_Design
 
 `t` → É utilizado para adicionar texto em uma div (Caso queira apagar um texto você deve ir no painel Clique e escolher a opção innerHTML para alterar ou excluir o texto).
 
+`i` → É utilizado para colocar um icone dentro de uma div, tem doi estilos de modelo/tema: FontAwesome ou MaterialDesign (para excluir ou alterar um icone é da mesma forma de um texto, ir no painel Clique e escolher a opção innerHTML, depois clicar na div que deseja retirar o icone e apagar, porém atenção pois pode acabar excluindo junto o texto).
+
+`p` → É utilizado para criar colunas dentro das div's, sendo uma coluna criada: x x x, eu quero dizer que quero três colunas dentro da div, todas com o mesmo tamanho, já no exemplo: x xx xxx, quero dizer que tenho três colunas, a primeira com tamanho x, a segunda com tamanho 2x e a terceira com tamanho 3x, sendo que x é responsavel por x por cento da largura daquela div, ou seja se temos uma div com 200px, então o exemplo aterior ficaria como: 33,33px cada valor de x, então: 33,33px ; 66,66px ; 99,99px.
+
+`ctrl + g` → Utilizado para criar gradiente de cores em uma div, aonde nos selecionamos acor que queremos e depois colocamos o mouse acima da div que queremos e apertamos ctrl + g, assim adicionando o gradiente a ela, vale ressaltar que a cada vez que é adicionado um gradiente ele muda entre o topo e o fim da div, ou seja, se eu quero um gradiente da cor vermelha para amarela a partir do topo da div, eu deixo a div da cor vermelha, seleciono a cor amarela na minha paleta de cores, coloco o mouse acima da div em vermelha e aperto ctrl + g, fazendo assim o top ficar em vermelho e a parte de baixo em amarela e o meio em laranja aonde ocorre o gradiente. Caso eu mude agora minha paleta para verde e aperte ctr + g na mesma div,eu vou ter um gradiente da cor verde para amarela, e assim sucessivamente.
+
 `SpaceBar` → Ou Visual, ao apertar a barra de espaço enquando o mouse estiver sobre uma div, ira aparecer uma janela de pop-up com algumas alterações extras que podem ser feitas na div selecionada, vale ressaltar que utilizando `Page Up` e `Page Down` enquando estiver nesse modo, ele altera para outra div que tenha a mesma hierarquia, também vale ressaltar que diversos componentes do Visual podem ser controlador por pixel, ex.: 15px, 60px, etc., como também pode ser alterado pelas setas (→ ↓ ↑ ←) e por fim com [ e ] para diminuir e aumentar os valores.
 
 Para as opçções do SpaceBar também nomeada como Visual, algumas bases são:
@@ -50,3 +56,21 @@ Para as opçções do SpaceBar também nomeada como Visual, algumas bases são:
 `Text-Align` - Alinhar o texto daquela div (Right, left, justify e center).
 
 `Translate` - Com as setas (→ ↓ ↑ ←) é possível movimentar a div para qualquer lugar da tela sem se importar com Margin ou Padding.
+
+## `Exemplos Feitos`
+
+Dos exemplos citados acima, todos foram feitos em sala de aula, mas para a conclusão da cadeira e como nota para a finalização da N2 do semestre, foi disponibilizado a escolha de dois exemplos para serem feitos dos exemplos: (Site estilo Youtube, site estilo Jornal, Calendário, Interface Ribbon e Interface Metro UI.), os dois exemplos escolhidos foram o exemplo do Calendário, e o exemplo do Jornal.
+
+`Exemplo Calendário`
+
+No exemplo do Calendário foi utilizado dois div's como pais, o primeiro em azul para a organização em geral, e o segundo para a organização dos divs internos e também para servir como um background para o nosso calendário.
+
+Após isso foram criados mais 4 div's, uma para a barra de meses com duas setas em cada extremidade com o nome no meio, outra para os dias da semana, e para isso foi utilizado a hotkey `p`, a terceira div foi para os dias do mês, também utilizando a hotkey `p`, e por fim foi utilizado a quarta div para as tags utilizadas no mês, que server como avisos.
+
+Além disso foi tirado todas as bordar exceto da última div que foi utilizdo apenas a borda de cima dela, e ela é apenas 90% da largura total, para que a barra não fique como uma linha 100%.
+
+`Exemplo Jornal`
+
+No exemplo da interface de Jornal, foi utilizado a mesma coisa do Calendário, duas div's para conseguirmos ajeitar tudo e deixar como um background, e dentro deles foram criados 4 div's, a primeira foi utilizada para servir como um topbar, onde tem o login e a assinatura do jornal, logo abaixo a segunda div onde temos o logo do jornal, o nome do jonal, e-mail de contado, valor do dólar e euro, e por fim uma seletor de busca, na terceira div foi utilizada como uma barra de busca já pre-criada, com notícias, economia, esportes, viagens, produtos, e coisas boas, ou seja, as buscar mais recorrentes que foram destacadas para facil acesso, e a última div, contendo tanto noticias como tambem propagandas, e para fazer elas ficarem divididas ao meio, foi dividido em duas div's a da esquerda com cerca de 60 ~ 70% de largura, e a da direito com as propagandas com o restante da largura.
+
+Da pra notar que doi utilado bastante o recurso de gradiente de cores.
