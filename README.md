@@ -6,6 +6,8 @@ Aqui estara apenas as telas finais, com o HTML e CSS acompanhado com uma imagem 
 ## `Site`
 O site http://enviartrabalho.rf.gd/div_design é um site desenvolvido pelo professor Ricardo Lenz Cesar e é utilizado para o desenvolvimento de telas com HTML e CSS utilizando apenas div para a construção das telas.
 
+Vale ressaltar que o site foi totalmente testado no navegador Mozilla Firefox, então, caso você esteja utilizando outros navegadores alguns atalhos ou efeitos podem não sair como o esperado, como por exemplo o Opera GX não funciona o atalho ctrl + g, pois ele tem uma atalho do proprio navegador para esse comando, então levando em conta isso, é recomendado o uso do Mozilla Firefox para a utilização da ferramenta Div_Design.
+
 ## `Hotkeys e Dicas do Div_Design`
 Primeiramente a tela padrão do Div_Design
 
@@ -73,4 +75,4 @@ Além disso foi tirado todas as bordar exceto da última div que foi utilizdo ap
 
 No exemplo da interface de Jornal, foi utilizado a mesma coisa do Calendário, duas div's para conseguirmos ajeitar tudo e deixar como um background, e dentro deles foram criados 4 div's, a primeira foi utilizada para servir como um topbar, onde tem o login e a assinatura do jornal, logo abaixo a segunda div onde temos o logo do jornal, o nome do jonal, e-mail de contado, valor do dólar e euro, e por fim uma seletor de busca, na terceira div foi utilizada como uma barra de busca já pre-criada, com notícias, economia, esportes, viagens, produtos, e coisas boas, ou seja, as buscar mais recorrentes que foram destacadas para facil acesso, e a última div, contendo tanto noticias como tambem propagandas, e para fazer elas ficarem divididas ao meio, foi dividido em duas div's a da esquerda com cerca de 60 ~ 70% de largura, e a da direito com as propagandas com o restante da largura.
 
-Da pra notar que doi utilado bastante o recurso de gradiente de cores.
+Da pra notar que foi utilado bastante o recurso de gradiente de cores `ctrl + g`.
